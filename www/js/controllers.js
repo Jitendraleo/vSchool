@@ -1482,7 +1482,7 @@ angular.module('aes.controllers', ['ionic', 'ngCordova', 'aes.services', 'ui.cal
         comments : ''
     };
 
-    $scope.countries_text_multiple = 'Choose countries';
+    $scope.teachers_text_multiple = 'Choose teachers';
     $scope.teacherList = angular.copy(PTIServices.getPTIData().teacherList);
     var teacherListToPrint = [];
     for(var i = 0 ; i<$scope.teacherList.length; i++){
